@@ -1,0 +1,20 @@
+{
+  "project": "The Defriends",
+  "version": "0.1.0",
+  "current_phase": 1,
+  "description": "Um jovem amaldiçoado precisa selar Ying e Yang. Um homem quebra uma promessa de 10 anos.",
+  "phases": [
+    {
+      "id": 1,
+      "title": "Fase 1: O Juramento",
+      "file": "data/fase1.json",
+      "pages": 25,
+      "status": "piloto_pronto",
+      "synopsis": "O homem retorna após 10 anos para cumprir a promessa com as 7 crianças."
+    }
+  ],
+  "metadata": {
+    "themes": ["maldição", "guerra", "amizade", "elementos"],
+    "key_quote": "Falar sobre os outros sobre uma maldição também os torna amaldiçoados"
+  }
+}
