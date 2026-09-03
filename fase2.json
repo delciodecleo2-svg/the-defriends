@@ -1,0 +1,41 @@
+{
+  "phase_id": 2,
+  "title": "Os Elementos",
+  "total_pages": 40,
+  "status": "em_roteiro",
+  "theme": "Treinamento e Autoconhecimento",
+  "timeline": "Futuro Distante",
+  "chapters": [
+    {
+      "id": "F2C1",
+      "title": "A Maldição Desperta",
+      "pages": 10,
+      "summary": "O jovem descobre que não tem muito tempo."
+    },
+    {
+      "id": "F2C2", 
+      "title": "O Primeiro Elemento: Fogo",
+      "pages": 10,
+      "summary": "Encontro com o Mestre dos Elementos. Primeiro treino."
+    },
+    {
+      "id": "F2C3",
+      "title": "Terra",
+      "pages": 10,
+      "summary": "Aprende a ser firme como terra para resistir. Conflito: ele quer força rápida, mas o mestre ensina paciência."
+    },
+    {
+      "id": "F2C4",
+      "title": "Raio"
+      "pages": 10,
+      "summary": "Últimos 2 elementos. Descobre que Raio é como Ar, liberdade e Espírito, perto de selar Ying e Yang no mundo, ele precisa primeiro selar o caos dentro de si."
+    }
+  ],
+  "characters_involved": [
+    "jovem_amaldicoado",
+    "mestre_elementos",
+    "entidade"
+  ],
+  "key_quote": "Para selar o mundo, primeiro precisa selar a si mesmo.",
+  "cliffhanger": "No final, ele domina os 5 elementos... mas..."
+}
