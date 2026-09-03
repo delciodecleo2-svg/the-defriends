@@ -1,0 +1,30 @@
+{
+  "phase_id": 1,
+  "title": "O Juramento",
+  "total_pages": 25,
+  "format": "curta_piloto",
+  "chapters": [
+    {
+      "id": "F1C1",
+      "title": "A Forma Original",
+      "pages": 8,
+      "summary": "A entidade é revelada em sua forma original. Fala sobre selar Ying e Yang."
+    },
+    {
+      "id": "F1C2", 
+      "title": "O Resgate",
+      "pages": 7,
+      "summary": "Flashback. O homem resgata 7 crianças em países em guerra e faz a promessa."
+    },
+    {
+      "id": "F1C3",
+      "title": "A Promessa Quebrada",
+      "pages": 10,
+      "summary": "10 anos depois. Luta com o guarda. Surra na criança. Frase final sobre a maldição."
+    }
+  ],
+  "characters": [
+    {"name": "O Homem", "role": "Mentor"},
+    {"name": "As 7 Crianças", "role": "Secundárias"}
+  ]
+}
