@@ -1,0 +1,71 @@
+{
+  "project": "The Defriends",
+  "phase": 1,
+  "characters": [
+    {
+      "id": "o_homem",
+      "name": "Délcio",
+      "codename": "",
+      "role": "Mentor / Anti-herói",
+      "age": "24s",
+      "status": "ativo",
+      "first_appearance": "Fase 1 - Capítulo 1",
+      "description": "Resgatou 7 crianças em países em guerra. Fez um juramento de voltar em 10 anos.",
+      "traits": ["Determinado", "Cumpre promessas"],
+      "objective_phase1": "Cumprir a promessa e revelar a verdade sobre a maldição",
+      "abilities": ["Combate", "Liderança"]
+    },
+    {
+      "id": "entidade",
+      "name": "Nzinga Mbandi",
+      "codename": "A Sombra",
+      "role": "Força Antagônica",
+      "age": "Desconhecida",
+      "status": "ativo",
+      "first_appearance": "Fase 1 - Capítulo 1",
+      "description": "Ser de forma original. Fala sobre a necessidade de selar Ying e Yang.",
+      "traits": ["Misteriosa", "Poderosa", "Oráculo"],
+      "objective_phase1": "Amaldiçoar",
+      "abilities": ["Onisciência parcial", "Manifestação"]
+    },
+    {
+      "id": "Florinda Saraiva",
+      "name": "Criança Apaixonada",
+      "codename": "Mãe das 7",
+      "role": "Secundária",
+      "age": "22",
+      "status": "ativo",
+      "first_appearance": "Fase 1 - Capítulo 1",
+      "description": "Uma das 7 crianças resgatadas. Desafiou o Homem.",
+      "traits": ["Apaixonada",  "Corajosa"],
+      "objective_phase1": "Representar o esquecimento da promessa",
+      "abilities": []
+    },
+    {
+      "id": "guarda_portao",
+      "name": "Guarda do Portão",
+      "codename": "",
+      "role": "Antagonista Menor",
+      "age": "25",
+      "status": "derrotado",
+      "first_appearance": "Fase 1 - Capítulo 3",
+      "description": "Impediu a entrada do Homem após 10 anos.",
+      "traits": ["Obediente", "Desconfiado"],
+      "objective_phase1": "Criar o primeiro conflito físico",
+      "abilities": ["Combate básico"]
+    },
+    {
+      "id": "as_7_criancas",
+      "name": "As 7 Crianças",
+      "codename": "Os Escolhidos",
+      "role": "Grupo",
+      "age": "21-22",
+      "status": "ativo",
+      "first_appearance": "Fase 1 - Capítulo 1",
+      "description": "Resgatadas de 7 países diferentes em guerra. Esqueceram da promessa.",
+      "traits": ["Inocentes", "Traumatizadas", "Diversas nacionalidades"],
+      "objective_phase1": "Ser o motivo do juramento do Homem",
+      "abilities": []
+    }
+  ]
+}
