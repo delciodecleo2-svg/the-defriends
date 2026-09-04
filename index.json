@@ -1,8 +1,8 @@
 {
   "project": "The Defriends",
-  "version": "0.1.0",
-  "current_phase": 1,
-  "description": "Um jovem amaldiçoado precisa selar Ying e Yang. Um homem quebra uma promessa de 10 anos.",
+  "author": "Você",
+  "version": "0.2.0",
+  "current_phase": 2,
   "phases": [
     {
       "id": 1,
@@ -10,11 +10,16 @@
       "file": "data/fase1.json",
       "pages": 25,
       "status": "piloto_pronto",
-      "synopsis": "O homem retorna após 10 anos para cumprir a promessa com as 7 crianças."
+      "synopsis": "Uma entidade é revelada. Um homem faz um juramento com 7 crianças."
+    },
+    {
+      "id": 2,
+      "title": "Fase 2: Os Elementos",
+      "file": "data/fase2.json",
+      "pages": 40,
+      "status": "em_roteiro",
+      "synopsis": "O jovem amaldiçoado treina para dominar Fogo, Água, Terra, Ar e Espírito para selar Ying e Yang."
     }
   ],
-  "metadata": {
-    "themes": ["maldição", "guerra", "amizade", "elementos"],
-    "key_quote": "Falar sobre os outros sobre uma maldição também os torna amaldiçoados"
-  }
+  "characters_file": "data/characters.json"
 }
