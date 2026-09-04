@@ -2,16 +2,63 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>The Defriends</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Defriends - Mangá</title>
   <style>
-    body { background: #0a0a0a; color: #eee; font-family: Arial; text-align: center; padding: 40px; }
-    h1 { color: #ff0040; }
-    .fase { background: #1a1a1a; margin: 20px auto; padding: 20px; border-radius: 10px; width: 400px; cursor: pointer; }
-    .fase:hover { background: #2a2a2a; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      background: #0a0a0a; 
+      color: #eee; 
+      font-family: 'Arial', sans-serif; 
+      text-align: center; 
+      padding: 40px 20px; 
+    }
+    h1 { 
+      color: #ff0040; 
+      font-size: 3em; 
+      margin-bottom: 10px; 
+      text-shadow: 0 0 10px #ff0040;
+    }
+    .sub { color: #aaa; margin-bottom: 40px; }
+    #menu { 
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: center; 
+      gap: 20px; 
+      max-width: 1000px; 
+      margin: 0 auto; 
+    }
+    .fase { 
+      background: #1a1a1a; 
+      border: 2px solid #333; 
+      padding: 25px; 
+      border-radius: 12px; 
+      width: 350px; 
+      cursor: pointer; 
+      transition: 0.3s;
+    }
+    .fase:hover { 
+      background: #222; 
+      border-color: #ff0040; 
+      transform: translateY(-5px);
+    }
+    .fase h2 { color: #ff0040; margin-bottom: 10px; }
+    .fase p { color: #ccc; font-size: 0.9em; line-height: 1.5; }
+    .status { 
+      display: inline-block; 
+      background: #ff0040; 
+      color: #000; 
+      padding: 4px 10px; 
+      border-radius: 5px; 
+      font-size: 0.8em; 
+      font-weight: bold; 
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
   <h1 id="titulo">Carregando...</h1>
+  <p class="sub">Um mangá sobre juramento, poder e redenção</p>
   <div id="menu"></div>
 
   <script src="script.js"></script>
