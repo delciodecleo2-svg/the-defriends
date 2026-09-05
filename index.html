@@ -2,33 +2,23 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reencontro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- TELA DO MENU -->
-    <div id="menu-screen" class="container">
-        <img id="manga-cover" src="" alt="Capa">
+    <div class="container">
+        <img id="manga-cover" src="" width="300">
         <h1 id="manga-title"></h1>
         <p id="manga-desc"></p>
-        <div id="phases-list"></div>
-    </div>
 
-    <!-- TELA DO LEITOR -->
-    <div id="reader-screen" class="container" style="display:none;">
-        <button class="btn-voltar" onclick="backToMenu()">← Voltar ao Menu</button>
-        <p id="page-counter"></p>
-        <div class="page-container">
-            <img id="page-image" src="" alt="Pagina do mangá">
+        <div id="leitor">
+            <p id="page-counter"></p>
+            <img id="page-image" src="" style="width:100%; max-width:700px;">
             <p id="page-text"></p>
-        </div>
-        <div class="botoes-nav">
-            <button id="prev-btn" onclick="prevPage()">Anterior</button>
-            <button id="next-btn" onclick="nextPage()">Próxima</button>
+            <button id="btn-anterior" onclick="anterior()">Anterior</button>
+            <button id="btn-proximo" onclick="proxima()">Próxima</button>
         </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
