@@ -6,11 +6,11 @@
 ---
 
 ### Sinopse
-Em futuros distantes, passado e presente, uma entidade é revelada. 
-Um jovem amaldiçoado precisa aprender a manipular todos os elementos para selar Ying e Yang. 
+Em um mundo de amaldiçoados e abençoados um jovem chamado Délcio Cleo junto de suas 2 irmãs cresceram como soldadso em uma guerra manifestada por anos pelos abençoados.
+Abencoados e amaldiçoados que vivem sobre manifestação de uma intidade chamada de TODA-PODEROSA Nzinga Mbandi. Têm como objetivo parar com esse ciclo infinito de prazer em morte. 
 
-Paralelamente, um homem resgata 7 crianças em países em guerra e promete voltar em 10 anos. 
-Ao retornar, descobre algo... e revela uma verdade: 
+Paralelamente, este mesmo jovem resgata 7 crianças em países em guerra e promete voltar para eles em 10 anos. 
+Ao retornar, e algo aconteçe... 
 > **"Falar sobre a maldição dos outros também os torna amaldiçoados."**
 
 ---
@@ -20,15 +20,15 @@ Ao retornar, descobre algo... e revela uma verdade:
 | Arquivo | Descrição |
 | --- | --- |
 | `index.json` | Menu principal. Aponta para todas as fases |
-| `data/fase1.json` | Fase 1: O Juramento - 25 páginas / 12min |
-| `data/fase2.json` | Fase 2: Os Elementos - Em breve |
+| `data/fase1.json` | Capítulo 1: Reencontro - 25 páginas / 12min |
+| `data/fase2.json` | Capítulo 2: Despedida - 17 páginas |
 
 ---
 
-### Fase 1: O Juramento
-**25 Páginas | 3 Capítulos**
-1.  **A Forma Original** - 8p - Revelação da entidade
-2.  **O Resgate** - 7p - As 7 crianças e a promessa
+### Capítulo 1: Reencontro
+**25 Páginas | 3 Cenas**
+1.  **A visão** - 8p - Revelação da entidade
+2.  **As 7 crianças** - 7p - As 7 crianças e a promessa
 3.  **A Promessa Quebrada** - 10p - O retorno após 10 anos
 
 ---
