@@ -1,7 +1,7 @@
 # The Defriends
 
-**Gênero:** Fantasia Sombria | **Formato:** Mangá / Curta Piloto  
-**Idioma:** Português-BR | **Status:** Em Produção - Fase 1
+**Gênero:** Seinen, Fantasia Sombria | **Formato:** Mangá / Curta Piloto  
+**Idioma:** Português-BR | **Status:** Em Produção 
 
 ---
 
