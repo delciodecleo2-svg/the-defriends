@@ -1,25 +1,16 @@
 {
-  "project": "The Defriends",
-  "author": "Você",
-  "version": "0.2.0",
-  "current_phase": 2,
+  "title": "Reencontro",
+  "author": "Délcio Decleo",
+  "description": "7 crianças. 1 juramento. 1 maldição. 1 benção. Uma história de abençoados e amaldiçoados pela Toda-poderosa Nzinga Mbandi.",
+  "cover": "assets/cover.jpg",
   "phases": [
     {
       "id": 1,
-      "title": "Fase 1: O Juramento",
+      "title": "Fase 1: O Reencontro",
       "file": "data/fase1.json",
       "pages": 25,
-      "status": "piloto_pronto",
-      "synopsis": "Uma entidade é revelada. Um homem faz um juramento com 7 crianças."
-    },
-    {
-      "id": 2,
-      "title": "Fase 2: Os Elementos",
-      "file": "data/fase2.json",
-      "pages": 40,
-      "status": "em_roteiro",
-      "synopsis": "O jovem amaldiçoado treina para dominar Fogo, Água, Terra, Ar e Espírito para selar Ying e Yang."
+      "status": "pronto",
+      "synopsis": "O passado do presente que pertence ao futuro e o reencontro após 10 anos."
     }
-  ],
-  "characters_file": "data/characters.json"
+  ]
 }
