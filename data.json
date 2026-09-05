@@ -3,7 +3,9 @@
     {
       "id": "defriends",
       "title": "DeFriends",
+      "author": "Délcio Decleo",
       "cover": "manga/defriends/cover.jpg",
+      "description": "Mangá DeFriends",
       "chapters": [
         {
           "number": 1,
