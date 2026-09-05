@@ -1,73 +1,83 @@
-let faseAtual = null;
-let paginaAtual = 0;
+let currentPhase = null;
+let currentPage = 0;
+let phasesData = [];
 
-document.addEventListener('DOMContentLoaded', () => {
-  carregarMenu();
-});
+// Carrega a lista de fases
+async function loadPhases() {
+    const res = await fetch('index.json');
+    const data = await res.json();
+    phasesData = data.phases;
+    document.getElementById('manga-title').innerText = data.title;
+    document.getElementById('manga-cover').src = data.cover;
+    document.getElementById('manga-desc').innerText = data.description;
+    renderPhasesList();
+}
 
-function carregarMenu() {
-  fetch('index.json')
-    .then(res => res.json())
-    .then(data => {
-      document.getElementById('titulo').innerText = data.project;
-      const menu = document.getElementById('menu');
-      menu.innerHTML = '';
-      
-      data.phases.forEach(fase => {
+// Mostra a lista de fases na tela inicial
+function renderPhasesList() {
+    const list = document.getElementById('phases-list');
+    list.innerHTML = '';
+    phasesData.forEach(phase => {
         const div = document.createElement('div');
-        div.className = 'fase';
+        div.className = 'phase-card';
         div.innerHTML = `
-          <h2>${fase.title}</h2>
-          <p>${fase.synopsis}</p>
-          <span class="status">${fase.status}</span>
+            <h3>${phase.title}</h3>
+            <p>${phase.synopsis}</p>
+            <p><b>${phase.pages} páginas</b> - ${phase.status}</p>
+            <button onclick="openPhase(${phase.id})">Ler</button>
         `;
-        div.onclick = () => abrirFase(fase.file, fase.title);
-        menu.appendChild(div);
-      });
+        list.appendChild(div);
     });
 }
 
-function abrirFase(arquivo, titulo) {
-  document.getElementById('menu').style.display = 'none';
-  document.getElementById('leitor').style.display = 'block';
-  document.getElementById('voltarMenu').style.display = 'inline-block';
-  document.getElementById('tituloFase').innerText = titulo;
-  document.querySelector('.sub').style.display = 'none';
-
-  fetch(arquivo)
-    .then(res => res.json())
-    .then(data => {
-      faseAtual = data.pages; // pega o array de páginas
-      paginaAtual = 0;
-      mostrarPagina();
-    });
+// Abre uma fase específica
+async function openPhase(id) {
+    const phase = phasesData.find(p => p.id === id);
+    const res = await fetch(phase.file);
+    currentPhase = await res.json();
+    currentPage = 0;
+    
+    document.getElementById('menu-screen').style.display = 'none';
+    document.getElementById('reader-screen').style.display = 'block';
+    
+    renderPage();
 }
 
-function mostrarPagina() {
-  document.getElementById('pagina').innerText = faseAtual[paginaAtual];
-  document.getElementById('numPagina').innerText = `Página ${paginaAtual + 1} de ${faseAtual.length}`;
-  document.getElementById('btnAnterior').disabled = paginaAtual === 0;
-  document.getElementById('btnProximo').disabled = paginaAtual === faseAtual.length - 1;
+// Mostra a página atual com IMAGEM + TEXTO
+function renderPage() {
+    const page = currentPhase.pages[currentPage];
+    
+    document.getElementById('page-image').src = page.image;
+    document.getElementById('page-text').innerText = page.text;
+    document.getElementById('page-counter').innerText = `Página ${currentPage + 1} de ${currentPhase.pages.length}`;
+    
+    // Esconde botão se for a primeira/última
+    document.getElementById('prev-btn').disabled = currentPage === 0;
+    document.getElementById('next-btn').disabled = currentPage === currentPhase.pages.length - 1;
 }
 
-function proximaPagina() {
-  if (paginaAtual < faseAtual.length - 1) {
-    paginaAtual++;
-    mostrarPagina();
-  }
+// Botões Próximo e Anterior
+function nextPage() {
+    if (currentPage < currentPhase.pages.length - 1) {
+        currentPage++;
+        renderPage();
+        window.scrollTo(0,0); // volta pro topo
+    }
 }
 
-function paginaAnterior() {
-  if (paginaAtual > 0) {
-    paginaAtual--;
-    mostrarPagina();
-  }
+function prevPage() {
+    if (currentPage > 0) {
+        currentPage--;
+        renderPage();
+        window.scrollTo(0,0);
+    }
 }
 
-function voltarMenu() {
-  document.getElementById('menu').style.display = 'flex';
-  document.getElementById('leitor').style.display = 'none';
-  document.getElementById('voltarMenu').style.display = 'none';
-  document.querySelector('.sub').style.display = 'block';
-  carregarMenu();
+// Voltar pro menu
+function backToMenu() {
+    document.getElementById('reader-screen').style.display = 'none';
+    document.getElementById('menu-screen').style.display = 'block';
 }
+
+// Inicia quando carrega o site
+window.onload = loadPhases;
