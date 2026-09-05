@@ -1,109 +1,13 @@
 {
-  "title": "Fase 1: Reencontro",
-  "pages": [
+  "id": "defriends",
+  "title": "DeFriends",
+  "cover": "cover.jpg",
+  "chapters": [
     {
-      "text": "PÁGINA 1\nUm olhar que viu o que não deveria em meio a uma reunião com seus irmãos.",
-      "image": "01/001.jpg"
-    },
-    {
-      "text": "PÁGINA 2\nUma jovem acabou de ler um passado proibido.\n\nA jovem: Agora falta a memória do passado.",
-      "image": "01/002.jpg"
-    },
-    {
-      "text": "PÁGINA 3\n\nAs 7 crianças em volta a uma fogueira. Esperando aquele que os salvou.\n\nHOMEM: Vou contar a história do mundo.",
-      "image": "01/003.jpg"
-    },
-    {
-      "text": "PÁGINA 4\n\nA história contada de um mundo com os 5 países que entraram em discussão e criam uma guerra com intenção de poder e ganância.",
-      "image": "01/004.jpg"
-    },
-    {
-      "text": "PÁGINA 5\n10 anos no passado havia um abençoado, Mas não fazia nada.\n\nO esforço coletivo seria a chave.",
-      "image": "01/005.jpg"
-    },
-    {
-      "text": "PÁGINA 6\nUma história que vai entrelaçando entre o passado futuro e presente de crianças jovens matando salvando.\n\nHOMEM: A pior existência será o futuro.",
-      "image": "01/006.jpg"
-    },
-    {
-      "text": "PÁGINA 7\n10 anos depois na cidade que nunca para de nevar. O reencontro com as crianças.",
-      "image": "01/007.jpg"
-    },
-    {
-      "text": "PÁGINA 8\nNo local de encontro esperando por elas em um restaurante.\n\nHomem: És o gerente? Não me lembro de ti.",
-      "image": "01/008.jpg"
-    },
-    {
-      "text": "PÁGINA 9\nUm hamburguer foi dada ao homem.",
-      "image": "01/009.jpg"
-    },
-    {
-      "text": "PÁGINA 10\nUma das crianças fica tentando lembrar de algo que parece importante.",
-      "image": "01/010.jpg"
-    },
-    {
-      "text": "PÁGINA 11\nEla diz que não lembra.\nEnquanto tentam lembrar aparece uma terceira criança. Ela deixa o clima mais agitado.",
-      "image": "01/011.jpg"
-    },
-    {
-      "text": "PÁGINA 12\nUm silêncio no elevador.",
-      "image": "01/012.jpg"
-    },
-    {
-      "text": "PÁGINA 13\nCriança: Oii meninos!",
-      "image": "01/013.jpg"
-    },
-    {
-      "text": "PÁGINA 14\nAs crianças apresentadas como: Junior, Jessica, Adalberto, Jefte. As crianças junto com as outras 3 Florinda, Domingas, Leslie.",
-      "image": "01/014.jpg"
-    },
-    {
-      "text": "PÁGINA 15\nTodas as crianças reunidas em uma mesa para por a conversa em dia.\n\nFlorinda: Não consigo.",
-      "image": "01/015.jpg"
-    },
-    {
-      "text": "PÁGINA 16\nFlorinda: Não consigo lembrar, desculpa.",
-      "image": "01/016.jpg"
-    },
-    {
-      "text": "PÁGINA 17\nEnquanto isso... O Adalberto e a Jessica começam a se faltar respeito.",
-      "image": "01/017.jpg"
-    },
-    {
-      "text": "PÁGINA 18\nFlorinda quebra o clima falando... Eu amo vocês.",
-      "image": "01/018.jpg"
-    },
-    {
-      "text": "PÁGINA 19\nAqueles que são considerados abençoados são chamados de Nguji. Eles podem manipular até 4 elementos mas continuam mais fracos que o abençoado a manipular tudo.",
-      "image": "01/019.jpg"
-    },
-    {
-      "text": "PÁGINA 20\nDurante toda essa informação Florinda lembra o que tanto se esforçava a lembrar. A promessa.",
-      "image": "01/020.jpg"
-    },
-    {
-      "text": "PÁGINA 21\nJessica: Então aquilo que não conseguias lembrar era da promessa de 10 anos atrás que fizeste com o papy?",
-      "image": "01/021.jpg"
-    },
-    {
-      "text": "PÁGINA 22\nFlorinda: Me desculpem... Já se passou 4h da hora marcada do reencontro. Enquanto isso...",
-      "image": "01/022.jpg"
-    },
-    {
-      "text": "PÁGINA 23\nCORTA PARA: Um homem chamado Délcio o papy das crianças. Se encontra com uma velha amiga Marineth.",
-      "image": "01/023.jpg"
-    },
-    {
-      "text": "PÁGINA 24\nMarineth tenta demostrar seus sentimentos mais...",
-      "image": "01/024.jpg"
-    },
-    {
-      "text": "PÁGINA 25\nAconteceu algo que trouxe soborrecimento de um lado e preocupação de outro.",
-      "image": "01/025.jpg"
-    },
-    {
-      "text": "PÁGINA 26\nFIM DO CAPÍTULO 1\nTO BE CONTINUED...",
-      "image": "01/026.jpg"
+      "number": 1,
+      "title": "Capítulo 1",
+      "pages": 26,
+      "path": "01/"
     }
   ]
 }
