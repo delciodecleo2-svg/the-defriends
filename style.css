@@ -1,6 +1,84 @@
-body { background: #0a0a0a; color: #fff; font-family: Arial; text-align: center; margin: 0; padding: 20px; }
-.container { max-width: 800px; margin: auto; }
-#manga-cover { max-width: 350px; width: 100%; border-radius: 10px; }
-#page-image { max-width: 800px; width: 100%; background: #000; border: 1px solid #333; }
-#page-text { background: #1a1a1a; padding: 15px; text-align: left; white-space: pre-wrap; }
-button { background: #b30000; color: white; border: none; padding: 10px 20px; margin: 10px; cursor: pointer; border-radius: 5px; }
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap');
+
+body {
+    background: #050505 url('https://www.transparenttextures.com/patterns/black-paper.png');
+    color: #e0e0e0;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+}
+
+/* EFEITO DOURADO NO TITULO */
+#manga-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 
+        0 0 5px #ff0000,
+        0 0 10px #ff0000,
+        0 0 20px #ff0000,
+        0 0 40px #c00;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+
+#manga-cover {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
+    border: 3px solid #c00;
+    box-shadow: 0 0 15px rgba(255,0,0,0.5);
+}
+
+.phase-card {
+    background: #111;
+    border: 1px solid #c00;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.phase-card:hover { background: #1a1a1a; box-shadow: 0 0 10px #c00; }
+.phase-card button {
+    background: linear-gradient(90deg, #c00, #800);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#page-image {
+    width: 100%;
+    background: #000;
+    border: 2px solid #333;
+}
+#page-text {
+    background: #111;
+    padding: 20px;
+    margin-top: 10px;
+    border-left: 4px solid #c00;
+    text-align: left;
+    white-space: pre-wrap;
+    font-size: 16px;
+    line-height: 1.6;
+}
+button {
+    background: #c00;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
