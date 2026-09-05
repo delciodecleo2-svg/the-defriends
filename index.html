@@ -1,48 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Defriends - Mangá</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { background: #0a0a0a; color: #eee; font-family: 'Arial', sans-serif; text-align: center; padding: 20px; }
-    h1 { color: #ff0040; font-size: 2.5em; margin-bottom: 10px; text-shadow: 0 0 10px #ff0040; }
-    .sub { color: #aaa; margin-bottom: 30px; }
-    #menu { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto; }
-    .fase { background: #1a1a1a; border: 2px solid #333; padding: 25px; border-radius: 12px; width: 350px; cursor: pointer; transition: 0.3s; }
-    .fase:hover { background: #222; border-color: #ff0040; transform: translateY(-5px); }
-    .fase h2 { color: #ff0040; margin-bottom: 10px; }
-    .status { display: inline-block; background: #ff0040; color: #000; padding: 4px 10px; border-radius: 5px; font-size: 0.8em; font-weight: bold; margin-top: 10px; }
-
-    /* LEITOR */
-    #leitor { display: none; max-width: 800px; margin: 0 auto; }
-    #leitor h2 { color: #ff0040; margin-bottom: 20px; }
-    #pagina { background: #111; padding: 30px; border-radius: 10px; min-height: 400px; text-align: left; line-height: 1.8; font-size: 1.1em; }
-    #controles { margin-top: 20px; display: flex; justify-content: space-between; }
-    button { background: #ff0040; color: #000; border: none; padding: 12px 25px; border-radius: 8px; font-weight: bold; cursor: pointer; transition: 0.2s; }
-    button:hover { background: #ff3366; }
-    button:disabled { background: #444; color: #888; cursor: not-allowed; }
-    #voltarMenu { background: #333; color: #eee; margin-bottom: 20px; }
-  </style>
+    <title>Reencontro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <button id="voltarMenu" onclick="voltarMenu()" style="display:none;">← Voltar ao Menu</button>
-  <h1 id="titulo">Carregando...</h1>
-  <p class="sub">Um mangá sobre juramento, poder e redenção</p>
-  
-  <div id="menu"></div>
-
-  <div id="leitor">
-    <h2 id="tituloFase"></h2>
-    <div id="pagina"></div>
-    <div id="controles">
-      <button id="btnAnterior" onclick="paginaAnterior()">← Anterior</button>
-      <span id="numPagina">Página 1 de 1</span>
-      <button id="btnProximo" onclick="proximaPagina()">Próxima →</button>
+    <!-- TELA DO MENU -->
+    <div id="menu-screen">
+        <img id="manga-cover" src="" width="300">
+        <h1 id="manga-title"></h1>
+        <p id="manga-desc"></p>
+        <div id="phases-list"></div>
     </div>
-  </div>
 
-  <script src="script.js"></script>
+    <!-- TELA DO LEITOR -->
+    <div id="reader-screen" style="display:none;">
+        <button onclick="backToMenu()">Voltar</button>
+        <p id="page-counter"></p>
+        <img id="page-image" src="" style="width:100%; max-width:800px;">
+        <p id="page-text"></p>
+        <button id="prev-btn" onclick="prevPage()">Anterior</button>
+        <button id="next-btn" onclick="nextPage()">Próxima</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
