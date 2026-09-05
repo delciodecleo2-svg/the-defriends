@@ -1,16 +1,23 @@
 {
-  "title": "Reencontro",
-  "author": "Délcio Decleo",
-  "description": "7 crianças. 1 juramento. 1 maldição. 1 benção. Uma história de abençoados e amaldiçoados pela Toda-poderosa Nzinga Mbandi.",
+  "title": "The Defriends",
   "cover": "assets/cover.jpg",
+  "description": "O passado que pertence ao futuro no presente. Abençoados. Amaldiçoados. A toda-poderosa Nzinga Mbandi.",
   "phases": [
     {
       "id": 1,
-      "title": "O Reencontro",
+      "title": "Capítulo 1: Reencontro",
       "file": "data/fase1.json",
       "pages": 25,
-      "status": "pronto",
-      "synopsis": "O passado do presente que pertence ao futuro e o reencontro após 10 anos."
+      "synopsis": "O reencontro depois de 10 anos e a promessa esquecida.",
+      "status": "Completo"
+    },
+    {
+      "id": 2,
+      "title": "Capítulo 2: Despedida",
+      "file": "data/fase2.json",
+      "pages": 17,
+      "synopsis": "Após lembrar da promesa os defriends tentam  alcançar o papy deles",
+      "status": "Completo"
     }
   ]
 }
