@@ -1,16 +1,15 @@
 {
   "mangas": [
     {
-      "id": "Capítulo-1-Reencontro",
-      "title": "Capítulo 1: Reencontro",
-      "cover": "manga/capítulo-1-Reencontro/capa.jpg",
-      "author": "Délcio Decleo",
+      "id": "defriends",
+      "title": "DeFriends",
+      "cover": "manga/defriends/cover.jpg",
       "chapters": [
         {
           "number": 1,
           "title": "Capítulo 1",
-          "pages": 25,
-          "path": "manga/Capítulo-1-Reencontro/01/"
+          "pages": 26,
+          "path": "manga/defriends/01/"
         }
       ]
     }
