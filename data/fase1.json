@@ -1,30 +1,54 @@
 {
-  "phase_id": 1,
-  "title": "Reencontro",
-  "total_pages": 25,
-  "format": "curta_piloto",
-  "chapters": [
-    {
-      "id": "F1C1",
-      "title": "A Forma Original",
-      "pages": 8,
-      "summary": "Uma maldição é manifestadaa em sua forma original. Fala sobre dominar Ying e Yang."
-    },
-    {
-      "id": "F1C2", 
-      "title": "O Resgate",
-      "pages": 7,
-      "summary": "Flashback. O homem resgata 7 crianças em países em guerra e faz a promessa."
-    },
-    {
-      "id": "F1C3",
-      "title": "A Promessa Quebrada",
-      "pages": 10,
-      "summary": "10 anos depois. Luta com o guarda. Surra na criança. Frase final sobre a maldição."
-    }
-  ],
-  "characters": [
-    {"name": "O Homem", "role": "Mentor"},
-    {"name": "As 7 Crianças", "role": "Secundárias"}
+  "title": "Fase 1: O Juramento",
+  "pages": [
+    "PÁGINA 1\nUm olhar que viu oque não deveria em meio a uma reunião com seus irmãos.",
+    
+    "PÁGINA 2\n\nUmajovem acabou de ler um passado proibido.\n\nA jovem: Agora falta a memória do passado.",
+    
+    "PÁGINA 3\n\nAs 7 crianças em volta a uma fogueira. Esperando aquele qeu os salvou.\n\nHOMEM: Vou contar a história do mundo.",
+    
+    "PÁGINA 4\n\nA história contada de um mundo com os 5 paises que entraram em discussão e criam uma guerra com intenção de poder e ganancia.",
+    
+    "PÁGINA 5\n10 anos no passado havia um abençoado, Mas não fazia nada.\n\nO esforço coletivo seria a chave.",
+    
+    "PÁGINA 6\n\nUma história que vai entrelaçando entre o passado futuro e presente de crianças jovens matando salvando.\n\nHOMEM:A pior existência sera o futuro.",
+    
+    "PÁGINA 7\n\n10 anos depois na cidade que nunca para de nevar. O reencontro com as crianças.",
+    
+    "PÁGINA 8\n\nNo local de encontro esperando por elas em um restaurante.\n\nHomem: Es o gerente? não me lembro de ti.",
+    
+    "PÁGINA 9\n\nUm hamburguer foi dada ao homem.",
+    
+    "PÁGINA 10\n\nUma das crianças fica tentando lembrar de algo que parece importante.",
+    
+    "PÁGINA 11\n\nEla diz que não lembra\nEnquanto tentam lembrar aparece uma terceira criança. Ela deixa o clima mais agitado.",
+    
+    "PÁGINA 12\nUm silêncio no elevador.",
+    
+    "PÁGINA 13\n\nCriança: Oii meninos.!",
+    
+    "PÁGINA 14\nAs criianças apresentadas como: Junior, jessica, adalberto, jefte. As crianças junto com as outras 3 florinda, domingas, leslie.",
+    
+    "PÁGINA 15\n\nTodas as crianças reunidas em uma mesa para por a conversa em dia.\n\nFlorinda: Não consigo.",
+    
+    "PÁGINA 16\nFlorinda: Não consigo lembrar, desculpa.",
+    
+    "PÁGINA 17\n\nEnquanto isso... O Adalberto e a jessica começam a se faltar respeito.",
+    
+    "PÁGINA 18\nFlorinda quebra o clima falando... Eu amo voçes.",
+    
+    "PÁGINA 19\n\nAqueles que são considerados abençoados são chamados de Nguji. Eles podem manipular até 4 elementos mas continuam mais fracos que o abençoado a manipular tudo.",
+    
+    "PÁGINA 20\n\nDurante toda essa informação Florinda lembra oque tanto se esforçava a lembrar. A promessa.",
+    
+    "PÁGINA 21\nJesica: Então aquilo que não conseguias lembrar era da promessa de 10 anos atras que fizeste com o papy?.",
+    
+    "PÁGINA 22\n\nFlorinda: ME desculpem...Já se passou 4h da hora marcada do reencontro. Enquanto isso...",
+    
+    "PÁGINA 23\n\nCORTA PARA: Um homem chamado Délcio o papy das crianças. Se encontra com uma velha amiga Marineth.",
+    
+    "PÁGINA 24\n\nMarineth tenta demostrar seus sentimentos mais...",
+    
+    "PÁGINA 25\nAcontceu algo que trouxe sborrecimento de um lado e prreocupação de outro\n\nFIM DO CAPITULO 1\n\nTO BE CONTINUED..."
   ]
 }
