@@ -6,7 +6,7 @@
   "phases": [
     {
       "id": 1,
-      "title": "Fase 1: O Reencontro",
+      "title": "O Reencontro",
       "file": "data/fase1.json",
       "pages": 25,
       "status": "pronto",
