@@ -1,24 +1,25 @@
-/* FUNDO ESTILO KAZUHA - Vermelho escuro + textura */
+/* FUNDO TECIDO KAZUHA */
 body {
-  background: #1a0b0b; /* base escura */
-  background-image: 
-    linear-gradient(rgba(26, 11, 11, 0.9), rgba(26, 11, 11, 0.9)),
-    url('https://www.transparenttextures.com/patterns/fabric-of-squares.png'); /* textura de tecido */
-  color: #e8e8e8;
+  background: #120808;
+  background-image: url('https://www.transparenttextures.com/patterns/dark-fabric.png');
+  color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-/* TÍTULO DOURADO */
-.manga-title, h1, .site-title {
-  color: #FFD700; /* Dourado */
-  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5); /* brilho leve */
+/* TITULO DOURADO */
+h1, .manga-title {
+  color: #FFD700;
+  text-align: center;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+  margin-top: 20px;
 }
 
-/* LISTA DE LEITURA - 1 embaixo da outra */
-.reader-page img {
-  width: 100%;
-  max-width: 800px; /* limita pra não ficar gigante */
-  height: auto;
+/* LEITURA EM LISTA */
+.reader-container img {
   display: block;
-  margin: 0 auto 10px auto; /* espaço entre páginas */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto 15px auto;
+  border-radius: 4px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.7);
 }
