@@ -2,21 +2,24 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reencontro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <img id="manga-cover" src="" width="300">
-        <h1 id="manga-title"></h1>
+        <img id="manga-cover" src="" alt="Capa">
+        <h1 id="manga-title">Carregando...</h1>
         <p id="manga-desc"></p>
 
         <div id="leitor">
             <p id="page-counter"></p>
-            <img id="page-image" src="" style="width:100%; max-width:700px;">
-            <p id="page-text"></p>
-            <button id="btn-anterior" onclick="anterior()">Anterior</button>
-            <button id="btn-proximo" onclick="proxima()">Próxima</button>
+            <img id="page-image" src="" alt="Pagina">
+            <pre id="page-text"></pre>
+            <div>
+                <button id="btn-anterior" onclick="anterior()">← Anterior</button>
+                <button id="btn-proximo" onclick="proxima()">Próxima →</button>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
