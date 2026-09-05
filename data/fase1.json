@@ -1,54 +1,105 @@
 {
-  "title": "Fase 1: Reencontro",
+  "title": "Fase 1: O Juramento",
   "pages": [
-    "PÁGINA 1\nUm olhar que viu o que não deveria em meio a uma reunião com seus irmãos.",
-    
-    "PÁGINA 2\nUma jovem acabou de ler um passado proibido.\n\nA jovem: Agora falta a memória do passado.",
-    
-    "PÁGINA 3\n\nAs 7 crianças em volta a uma fogueira. Esperando aquele que os salvou.\n\nHOMEM: Vou contar a história do mundo.",
-    
-    "PÁGINA 4\n\nA história contada de um mundo com os 5 países que entraram em discussão e criam uma guerra com intenção de poder e ganância.",
-    
-    "PÁGINA 5\n10 anos no passado havia um abençoado, Mas não fazia nada.\n\nO esforço coletivo seria a chave.",
-    
-    "PÁGINA 6\nUma história que vai entrelaçando entre o passado futuro e presente de crianças jovens matando salvando.\n\nHOMEM: A pior existência será o futuro.",
-    
-    "PÁGINA 7\n10 anos depois na cidade que nunca para de nevar. O reencontro com as crianças.",
-    
-    "PÁGINA 8\nNo local de encontro esperando por elas em um restaurante.\n\nHomem: És o gerente? Não me lembro de ti.",
-    
-    "PÁGINA 9\nUm hamburguer foi dada ao homem.",
-    
-    "PÁGINA 10\nUma das crianças fica tentando lembrar de algo que parece importante.",
-    
-    "PÁGINA 11\n\nEla diz que não lembra.\nEnquanto tentam lembrar aparece uma terceira criança. Ela deixa o clima mais agitado.",
-    
-    "PÁGINA 12\nUm silêncio no elevador.",
-    
-    "PÁGINA 13\nCriança: Oii meninos!",
-    
-    "PÁGINA 14\nAs crianças apresentadas como: Junior, Jessica, Adalberto, Jefte. As crianças junto com as outras 3 Florinda, Domingas, Leslie.",
-    
-    "PÁGINA 15\nTodas as crianças reunidas em uma mesa para por a conversa em dia.\n\nFlorinda: Não consigo.",
-    
-    "PÁGINA 16\nFlorinda: Não consigo lembrar, desculpa.",
-    
-    "PÁGINA 17\nEnquanto isso... O Adalberto e a Jessica começam a se faltar respeito.",
-    
-    "PÁGINA 18\nFlorinda quebra o clima falando... Eu amo vocês.",
-    
-    "PÁGINA 19\nAqueles que são considerados abençoados são chamados de Nguji. Eles podem manipular até 4 elementos mas continuam mais fracos que o abençoado a manipular tudo.",
-    
-    "PÁGINA 20\nDurante toda essa informação Florinda lembra o que tanto se esforçava a lembrar. A promessa.",
-    
-    "PÁGINA 21\nJessica: Então aquilo que não conseguias lembrar era da promessa de 10 anos atrás que fizeste com o papy?",
-    
-    "PÁGINA 22\nFlorinda: Me desculpem... Já se passou 4h da hora marcada do reencontro. Enquanto isso...",
-    
-    "PÁGINA 23\nCORTA PARA: Um homem chamado Délcio o papy das crianças. Se encontra com uma velha amiga Marineth.",
-    
-    "PÁGINA 24\nMarineth tenta demostrar seus sentimentos mais...",
-    
-    "PÁGINA 25\nAconteceu algo que trouxe soborrecimento de um lado e preocupação de outro.\n\nFIM DO CAPÍTULO 1\nTO BE CONTINUED..."
+    {
+      "text": "PÁGINA 1\nUm olhar que viu o que não deveria em meio a uma reunião com seus irmãos.",
+      "image": "assets/fase1/pag01.jpg"
+    },
+    {
+      "text": "PÁGINA 2\nUma jovem acabou de ler um passado proibido.\n\nA jovem: Agora falta a memória do passado.",
+      "image": "assets/fase1/pag02.jpg"
+    },
+    {
+      "text": "PÁGINA 3\n\nAs 7 crianças em volta a uma fogueira. Esperando aquele que os salvou.\n\nHOMEM: Vou contar a história do mundo.",
+      "image": "assets/fase1/pag03.jpg"
+    },
+    {
+      "text": "PÁGINA 4\n\nA história contada de um mundo com os 5 países que entraram em discussão e criam uma guerra com intenção de poder e ganância.",
+      "image": "assets/fase1/pag04.jpg"
+    },
+    {
+      "text": "PÁGINA 5\n10 anos no passado havia um abençoado, Mas não fazia nada.\n\nO esforço coletivo seria a chave.",
+      "image": "assets/fase1/pag05.jpg"
+    },
+    {
+      "text": "PÁGINA 6\nUma história que vai entrelaçando entre o passado futuro e presente de crianças jovens matando salvando.\n\nHOMEM: A pior existência será o futuro.",
+      "image": "assets/fase1/pag06.jpg"
+    },
+    {
+      "text": "PÁGINA 7\n10 anos depois na cidade que nunca para de nevar. O reencontro com as crianças.",
+      "image": "assets/fase1/pag07.jpg"
+    },
+    {
+      "text": "PÁGINA 8\nNo local de encontro esperando por elas em um restaurante.\n\nHomem: És o gerente? Não me lembro de ti.",
+      "image": "assets/fase1/pag08.jpg"
+    },
+    {
+      "text": "PÁGINA 9\nUm hamburguer foi dada ao homem.",
+      "image": "assets/fase1/pag09.jpg"
+    },
+    {
+      "text": "PÁGINA 10\nUma das crianças fica tentando lembrar de algo que parece importante.",
+      "image": "assets/fase1/pag10.jpg"
+    },
+    {
+      "text": "PÁGINA 11\nEla diz que não lembra.\nEnquanto tentam lembrar aparece uma terceira criança. Ela deixa o clima mais agitado.",
+      "image": "assets/fase1/pag11.jpg"
+    },
+    {
+      "text": "PÁGINA 12\nUm silêncio no elevador.",
+      "image": "assets/fase1/pag12.jpg"
+    },
+    {
+      "text": "PÁGINA 13\nCriança: Oii meninos!",
+      "image": "assets/fase1/pag13.jpg"
+    },
+    {
+      "text": "PÁGINA 14\nAs crianças apresentadas como: Junior, Jessica, Adalberto, Jefte. As crianças junto com as outras 3 Florinda, Domingas, Leslie.",
+      "image": "assets/fase1/pag14.jpg"
+    },
+    {
+      "text": "PÁGINA 15\nTodas as crianças reunidas em uma mesa para por a conversa em dia.\n\nFlorinda: Não consigo.",
+      "image": "assets/fase1/pag15.jpg"
+    },
+    {
+      "text": "PÁGINA 16\nFlorinda: Não consigo lembrar, desculpa.",
+      "image": "assets/fase1/pag16.jpg"
+    },
+    {
+      "text": "PÁGINA 17\nEnquanto isso... O Adalberto e a Jessica começam a se faltar respeito.",
+      "image": "assets/fase1/pag17.jpg"
+    },
+    {
+      "text": "PÁGINA 18\nFlorinda quebra o clima falando... Eu amo vocês.",
+      "image": "assets/fase1/pag18.jpg"
+    },
+    {
+      "text": "PÁGINA 19\nAqueles que são considerados abençoados são chamados de Nguji. Eles podem manipular até 4 elementos mas continuam mais fracos que o abençoado a manipular tudo.",
+      "image": "assets/fase1/pag19.jpg"
+    },
+    {
+      "text": "PÁGINA 20\nDurante toda essa informação Florinda lembra o que tanto se esforçava a lembrar. A promessa.",
+      "image": "assets/fase1/pag20.jpg"
+    },
+    {
+      "text": "PÁGINA 21\nJessica: Então aquilo que não conseguias lembrar era da promessa de 10 anos atrás que fizeste com o papy?",
+      "image": "assets/fase1/pag21.jpg"
+    },
+    {
+      "text": "PÁGINA 22\nFlorinda: Me desculpem... Já se passou 4h da hora marcada do reencontro. Enquanto isso...",
+      "image": "assets/fase1/pag22.jpg"
+    },
+    {
+      "text": "PÁGINA 23\nCORTA PARA: Um homem chamado Délcio o papy das crianças. Se encontra com uma velha amiga Marineth.",
+      "image": "assets/fase1/pag23.jpg"
+    },
+    {
+      "text": "PÁGINA 24\nMarineth tenta demostrar seus sentimentos mais...",
+      "image": "assets/fase1/pag24.jpg"
+    },
+    {
+      "text": "PÁGINA 25\nAconteceu algo que trouxe soborrecimento de um lado e preocupação de outro.\n\nFIM DO CAPÍTULO 1\nTO BE CONTINUED...",
+      "image": "assets/fase1/pag25.jpg"
+    }
   ]
 }
