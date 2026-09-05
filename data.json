@@ -1,0 +1,18 @@
+{
+  "mangas": [
+    {
+      "id": "Capítulo-1-Reencontro",
+      "title": "Capítulo 1: Reencontro",
+      "cover": "manga/capítulo-1-Reencontro/capa.jpg",
+      "author": "Délcio Decleo",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "Capítulo 1",
+          "pages": 25,
+          "path": "manga/Capítulo-1-Reencontro/01/"
+        }
+      ]
+    }
+  ]
+}
