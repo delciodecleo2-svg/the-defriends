@@ -20,7 +20,7 @@ Ao retornar, e algo aconteçe...
 | Arquivo | Descrição |
 | --- | --- |
 | `index.json` | Menu principal. Aponta para todas as fases |
-| `data/fase1.json` | Capítulo 1: Reencontro - 25 páginas / 12min |
+| `data/fase1.json` | Capítulo 1: Reencontro - 26 páginas / 12min |
 | `data/fase2.json` | Capítulo 2: Despedida - 17 páginas |
 
 ---
