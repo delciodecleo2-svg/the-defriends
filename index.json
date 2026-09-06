@@ -1,13 +1,14 @@
 {
   "title": "The Defriends",
   "cover": "assets/cover.jpg",
-  "description": "O passado que pertence ao futuro no presente. Abençoados. Amaldiçoados. A toda-poderosa Nzinga Mbandi.",
+  "description": "Um olhar que viu o que não deveria. 7 crianças. 1 promessa. 10 anos depois.",
   "phases": [
     {
       "id": 1,
       "title": "Capítulo 1: Reencontro",
       "file": "data/fase1.json",
-      "pages": 26,
+      "thumbnail": "assets/fase1/thumb.jpg",
+      "pages": 25,
       "synopsis": "O reencontro depois de 10 anos e a promessa esquecida.",
       "status": "Completo"
     },
@@ -15,8 +16,9 @@
       "id": 2,
       "title": "Capítulo 2: Despedida",
       "file": "data/fase2.json",
+      "thumbnail": "assets/fase2/thumb.jpg",
       "pages": 17,
-      "synopsis": "Após lembrar da promesa os defriends tentam  alcançar o papy deles",
+      "synopsis": "Eles tentam alcançar aquele que esta distante de suas mentes.",
       "status": "Completo"
     }
   ]
