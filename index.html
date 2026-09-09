@@ -1,35 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <title>The Defriends - Menu</title>
-  <style>
-    body { background: #111; color: #fff; font-family: Arial; text-align: center; }
-    .container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
-    .card { background: #222; border-radius: 10px; width: 200px; padding: 10px; cursor: pointer; transition: 0.3s; }
-    .card:hover { transform: scale(1.05); background: #333; }
-    .card img { width: 100%; border-radius: 5px; }
-  </style>
+<meta charset="UTF-8">
+<title>The Defriends - Menu</title>
+<style>
+body { background:#111; color:#fff; font-family:Arial; text-align:center; }
+h1 { margin-top:30px; }
+.grid { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; padding:20px; }
+.card { background:#222; border-radius:10px; padding:10px; width:200px; }
+.card img { width:100%; border-radius:5px; }
+.card a { color:#00ff88; text-decoration:none; font-weight:bold; }
+</style>
 </head>
 <body>
-  <h1>THE DEFRIENDS</h1>
-  <div class="container" id="menu"></div>
-
-  <script>
-    fetch('data/mangas.json')
-      .then(res => res.json())
-      .then(mangas => {
-        const menu = document.getElementById('menu');
-        mangas.forEach(m => {
-          menu.innerHTML += `
-            <div class="card" onclick="window.location='leitor.html?fase='+m.id">
-              <img src="${m.cover}" alt="${m.title}">
-              <h3>${m.title}</h3>
-              <p>${m.description}</p>
-            </div>
-          `;
-        });
-      });
-  </script>
+<h1>THE DEFRIENDS</h1>
+<div class="grid">
+  <div class="card">
+    <img src="manga/defriends/cover.jpg" alt="Capa">
+    <p><a href="manga/defriends/01/001.jpg">FASE 01</a></p>
+  </div>
+</div>
 </body>
 </html>
