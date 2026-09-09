@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Leitor</title>
+  <style>
+    body { background: #000; color: #fff; text-align: center; }
+    img { max-width: 90%; margin: 10px 0; }
+    .texto { background: #222; padding: 15px; margin: 10px auto; max-width: 800px; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <h1 id="titulo"></h1>
+  <div id="paginas"></div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const faseId = urlParams.get('fase');
+
+    fetch(`data/${faseId}.json`)
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById('titulo').innerText = data.title;
+        const div = document.getElementById('paginas');
+        data.pages.forEach(p => {
+          div.innerHTML += `<div class="texto">${p.text}</div><img src="${p.image}">`;
+        });
+      });
+  </script>
+</body>
+</html>
