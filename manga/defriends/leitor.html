@@ -2,29 +2,95 @@
 <html lang="pt">
 <head>
 <meta charset="UTF-8">
-<title>Leitor - Fase 01</title>
+<title>The Defriends - Fase 01</title>
 <style>
-body { background:#000; text-align:center; margin:0; }
-img { max-width:100%; height:auto; }
-.botoes { position:fixed; bottom:10px; width:100%; }
-.botoes a { background:#00ff88; color:#000; padding:10px 20px; margin:5px; border-radius:5px; text-decoration:none; font-weight:bold; }
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+body { 
+  background: linear-gradient(180deg, #0B1F2F 0%, #1a2f3f 100%); 
+  color:#E8E8E8;
+  text-align:center; 
+  margin:0; 
+  font-family:'Cinzel', serif;
+  padding-bottom:80px;
+}
+.topo {
+  position:fixed; top:0; left:0; width:100%;
+  background: rgba(11,31,47,0.9); backdrop-filter: blur(5px);
+  padding:10px 0; border-bottom:2px solid #A11D2B; z-index:10;
+  display:flex; justify-content:space-between; align-items:center;
+}
+.topo a {
+  color:#E8E8E8; text-decoration:none; padding:8px 15px; margin:0 15px;
+  border:1px solid #A11D2B; border-radius:5px; transition:0.3s;
+}
+.topo a:hover { background:#A11D2B; color:#fff; }
+img { 
+  max-width:100%; height:auto; display:block; margin:70px auto 0;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5); border-radius:4px;
+}
+.botoes { 
+  position:fixed; bottom:0; left:0; width:100%; 
+  background: rgba(11,31,47,0.9); backdrop-filter: blur(5px);
+  padding:15px 0; border-top:2px solid #A11D2B;
+}
+.botoes a { 
+  background:#A11D2B; color:#E8E8E8; padding:12px 30px; margin:0 15px; 
+  border-radius:8px; text-decoration:none; font-weight:bold; font-size:16px;
+  border:1px solid #E8E8E8; transition:0.3s;
+}
+.botoes a:hover { background:#E8E8E8; color:#0B1F2F; }
+#loading { color:#A11D2B; font-size:14px; margin-top:10px; }
 </style>
 </head>
 <body>
-<img id="pagina" src="01/001.jpg">
-<div class="botoes">
-  <a href="#" onclick="ant()">ANTERIOR</a>
-  <a href="#" onclick="prox()">PRÓXIMA</a>
+
+<div class="topo">
+  <a href="../../index.html">⬅ MENU</a>
+  <h2 style="margin:0; font-size:18px;">THE DEFRIENDS - FASE 01</h2>
+  <div></div>
 </div>
+
+<img id="pagina" src="01/001.jpg" alt="Pagina">
+<div id="loading"></div>
+
+<div class="botoes">
+  <a href="#" onclick="ant()">⬅ ANTERIOR</a>
+  <a href="#" onclick="prox()">PRÓXIMA ➡</a>
+</div>
+
 <script>
 let atual = 1;
-let total = 26; // 26
+let total = 26; // muda aqui se tiver mais paginas
+let img = document.getElementById('pagina');
+let loading = document.getElementById('loading');
+let preloadImg = new Image();
+
+function carregar(pag){
+  loading.innerText = "Carregando...";
+  img.src = `01/${String(pag).padStart(3,'0')}.jpg`;
+  img.onload = () => loading.innerText = `Página ${pag} / ${total}`;
+  
+  // Pré-carregar a próxima
+  if(pag < total){
+    preloadImg.src = `01/${String(pag+1).padStart(3,'0')}.jpg`;
+  }
+}
+
 function prox(){
-  if(atual < total) { atual++; document.getElementById('pagina').src = `01/${String(atual).padStart(3,'0')}.jpg`; }
+  if(atual < total) { atual++; carregar(atual); }
 }
 function ant(){
-  if(atual > 1) { atual--; document.getElementById('pagina').src = `01/${String(atual).padStart(3,'0')}.jpg`; }
+  if(atual > 1) { atual--; carregar(atual); }
 }
+
+document.addEventListener('keydown', e => {
+  if(e.key === 'ArrowRight') prox();
+  if(e.key === 'ArrowLeft') ant();
+});
+
+// Carregar primeira vez
+carregar(1);
 </script>
 </body>
 </html>
