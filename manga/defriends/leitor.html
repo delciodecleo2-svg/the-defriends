@@ -76,5 +76,65 @@ for(let i = 1; i <= total; i++){
   container.appendChild(div);
 }
 </script>
+ <!-- ZONA DE CLASSIFICAÇÃO -->
+<div class="avaliacao">
+  <h3>O QUE ACHOU DESTE CAPÍTULO?</h3>
+  <p>Sua nota ajuda outros leitores!</p>
+  <div class="estrelas" id="estrelas">
+    <span data-valor="1">★</span>
+    <span data-valor="2">★</span>
+    <span data-valor="3">★</span>
+    <span data-valor="4">★</span>
+    <span data-valor="5">★</span>
+  </div>
+  <p id="mensagem-avaliacao"></p>
+</div>
+
+<style>
+.avaliacao {
+  background: linear-gradient(180deg, #A0522D, #8B4513);
+  border:3px solid #F5DEB3; border-radius:15px;
+  padding:30px 20px; margin:40px auto; max-width:600px;
+  box-shadow:0 0 20px rgba(245,222,179,0.3); text-align:center;
+}
+.avaliacao h3 { color:#F5DEB3; margin:0 0 10px; }
+.avaliacao p { color:#FFF8E7; }
+.estrelas { font-size:45px; color:#555; cursor:pointer; }
+.estrelas span { transition:0.2s; display:inline-block; padding:0 5px; }
+.estrelas span:hover,
+.estrelas span.ativa { color:#FFD700; text-shadow:0 0 10px #FFD700; transform:scale(1.2); }
+#mensagem-avaliacao { color:#FFD700; font-weight:700; margin-top:15px; }
+</style>
+
+<script>
+// SISTEMA DE AVALIAÇÃO
+const estrelas = document.querySelectorAll('#estrelas span');
+const msg = document.getElementById('mensagem-avaliacao');
+let jaAvaliou = localStorage.getItem('avaliacao_fase01'); // salva no navegador
+
+if(jaAvaliou){
+  pintarEstrelas(jaAvaliou);
+  msg.innerText = `Você avaliou com ${jaAvaliou} estrela(s). Obrigado!`;
+}
+
+estrelas.forEach(estrela => {
+  estrela.addEventListener('click', () => {
+    let valor = estrela.getAttribute('data-valor');
+    localStorage.setItem('avaliacao_fase01', valor); // salva
+    pintarEstrelas(valor);
+    msg.innerText = `Você avaliou com ${valor} estrela(s). Obrigado!`;
+  });
+});
+
+function pintarEstrelas(valor){
+  estrelas.forEach(e => {
+    if(e.getAttribute('data-valor') <= valor){
+      e.classList.add('ativa');
+    } else {
+      e.classList.remove('ativa');
+    }
+  });
+}
+</script> 
 </body>
 </html>
