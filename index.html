@@ -4,12 +4,30 @@
 <meta charset="UTF-8">
 <title>The Defriends - Menu</title>
 <style>
-body { background:#111; color:#fff; font-family:Arial; text-align:center; }
-h1 { margin-top:30px; }
-.grid { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; padding:20px; }
-.card { background:#222; border-radius:10px; padding:10px; width:200px; }
-.card img { width:100%; border-radius:5px; }
-.card a { color:#00ff88; text-decoration:none; font-weight:bold; }
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+body {
+  background: linear-gradient(135deg, #004D40 0%, #00695C 100%);
+  color:#fff; font-family:'Cinzel', serif; text-align:center; min-height:100vh;
+}
+h1 {
+  margin-top:40px; font-size:42px;
+  background: linear-gradient(90deg, #FFD700, #FFF8DC, #FFD700);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 20px rgba(255,215,0,0.5);
+}
+.grid { display:flex; flex-wrap:wrap; justify-content:center; gap:30px; padding:40px 20px; }
+.card {
+  background: linear-gradient(180deg, #00695C, #004D40);
+  border-radius:15px; padding:15px; width:240px;
+  border:3px solid #FFD700; box-shadow:0 0 25px rgba(255,215,0,0.3);
+  transition:0.3s;
+}
+.card:hover { transform:translateY(-5px); box-shadow:0 0 35px rgba(255,215,0,0.6); }
+.card img { width:100%; border-radius:10px; border:2px solid #FFD700; }
+.card a {
+  color:#FFD700; text-decoration:none; font-weight:700; font-size:18px;
+  display:block; margin-top:10px;
+}
 </style>
 </head>
 <body>
@@ -17,7 +35,7 @@ h1 { margin-top:30px; }
 <div class="grid">
   <div class="card">
     <img src="manga/defriends/cover.jpg" alt="Capa">
-   <p><a href="manga/defriends/leitor.html">FASE 01</a></p>
+    <p><a href="manga/defriends/leitor.html">FASE 01</a></p>
   </div>
 </div>
 </body>
