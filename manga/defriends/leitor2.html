@@ -50,13 +50,13 @@ body {
 
 <div class="topo">
   <a href="../../index.html">⬅ VOLTAR AO MENU</a>
-  <h2>THE DEFRIENDS - FASE 01</h2>
+  <h2>THE DEFRIENDS - CAPITULO 2</h2>
 </div>
 
 <div class="container" id="container"></div>
 
 <script>
-let total = 26; // muda aqui
+let total = 17; // muda aqui
 let container = document.getElementById('container');
 
 for(let i = 1; i <= total; i++){
@@ -68,7 +68,7 @@ for(let i = 1; i <= total; i++){
   num.innerText = `PÁGINA ${i}`;
   
   let img = document.createElement('img');
-  img.src = `01/${String(i).padStart(3,'0')}.jpg`;
+  img.src = `02/${String(i).padStart(3,'0')}.jpg`;
   img.loading = "lazy"; // carrega conforme rola
   
   div.appendChild(num);
